@@ -15,4 +15,6 @@ jobs:
       uses: actions/setup-node@v2
       with: 
         node-version: '16'
-        check-latest: true  
+        check-latest: true
+    - name: Install dependencies
+      run: npm install  
