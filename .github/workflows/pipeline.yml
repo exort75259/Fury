@@ -3,9 +3,16 @@ on:
  push:
      branches:
      - staging
+     
 jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v2  
+      uses: actions/checkout@v1
+
+    - name: Use Node.js
+      uses: actions/setup-node@v2
+      with: 
+        node-version: '16'
+        check-latest: true  
