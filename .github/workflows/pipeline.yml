@@ -14,7 +14,12 @@ jobs:
     - name: Use Node.js
       uses: actions/setup-node@v2
       with: 
-        node-version: '16'
+<<<<<<< HEAD
+        node-version: '17'
         check-latest: true
     - name: Install dependencies
       run: npm install  
+=======
+        node-version: '17'
+        check-latest: true  
+>>>>>>> master
