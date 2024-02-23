@@ -34,4 +34,4 @@ CMD ["node", "app.js"]
 
 
 
-ENTRYPOINT /usr/src/app/date.txt
+ENTRYPOINT /usr/src/app/date.txt # это последствие моего скрипта на баше))
